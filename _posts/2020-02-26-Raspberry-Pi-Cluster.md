@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Raspberry Pi Cluster
 ---
 Documenting my adventures in playing with raspberry pi cluster.
 
