@@ -21,6 +21,9 @@ https://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/
 ClusterHAT pre-built images (have a working NAT)
 https://clusterctrl.com/setup-software
 
+Install kubernetes k3s
+https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/
+
 
 ## References (didn't work)
 Setting up a bridge network
