@@ -10,7 +10,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=245931
 ```
 sudo nano /boot/cmdline.txt
 # Add to very beginning of commands
-usb-storage.quirks=aaaa:bbbb:u
+usb-storage.quirks=152d:0578:u
 ```
 
 
