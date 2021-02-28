@@ -5,10 +5,11 @@ title: Raspberry Pi Cluster
 Documenting my adventures in playing with raspberry pi cluster.
 
 ## References
-USB boot from hard drive (slow)
+USB boot from hard drive (fix slowness)
 https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=245931
 ```
 sudo nano /boot/cmdline.txt
+
 # Add to very beginning of commands
 usb-storage.quirks=152d:0578:u
 ```
