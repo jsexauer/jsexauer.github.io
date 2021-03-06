@@ -3,9 +3,13 @@ layout: post
 title: 3d Printer Resources
 ---
 
+## Calibration
+- All-in-one calibration: https://www.youtube.com/watch?v=rp3r921DBGI
+- Extruder Calibration: https://mattshub.com/blogs/blog/extruder-calibration
+
+
 ## References
 - Custom Firmware: https://github.com/Jyers/Marlin/wiki
-- Extruder Calibration: https://mattshub.com/blogs/blog/extruder-calibration
 - Layout shifts for v4.2.2 boards: https://www.reddit.com/r/ender3v2/comments/lmf1v2/an_faq_on_layer_shifts_and_mainboards/
 - Just got your Ender 3?: https://www.reddit.com/r/ender3/comments/chqbud/just_got_your_ender_3_please_read_this_before/
 - Redit:
