@@ -20,6 +20,22 @@ Restore saved mesh bed leveling
 M420 S1
 ```
 
+See bed leveling grid:
+```
+M420 V1 T1
+Recv: Bilinear Leveling Grid:
+Recv:       0      1      2      3      4
+Recv:  0 -0.030 -0.040 -0.060 -0.040 -0.040
+Recv:  1 +0.040 +0.030 +0.030 +0.000 -0.040
+Recv:  2 +0.060 +0.030 +0.000 -0.020 -0.020
+Recv:  3 +0.030 +0.030 +0.020 +0.040 +0.040
+Recv:  4 -0.020 -0.030 -0.010 +0.020 +0.070
+Recv: 
+Recv: echo:Bed Leveling ON
+Recv: echo:Fade Height 10.00
+```
+
+
 ## References
 - Custom Firmware: https://github.com/Jyers/Marlin/wiki
 - Layout shifts for v4.2.2 boards: https://www.reddit.com/r/ender3v2/comments/lmf1v2/an_faq_on_layer_shifts_and_mainboards/
