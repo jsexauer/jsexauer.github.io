@@ -14,6 +14,12 @@ title: 3d Printer Resources
   - https://www.youtube.com/watch?v=QnrH2Sk7y40
 - Bed springs: https://www.amazon.com/gp/product/B07MTGXYLW/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
 
+## Mesh Bed Leveling
+Restore saved mesh bed leveling
+```
+M420 S1
+```
+
 ## References
 - Custom Firmware: https://github.com/Jyers/Marlin/wiki
 - Layout shifts for v4.2.2 boards: https://www.reddit.com/r/ender3v2/comments/lmf1v2/an_faq_on_layer_shifts_and_mainboards/
