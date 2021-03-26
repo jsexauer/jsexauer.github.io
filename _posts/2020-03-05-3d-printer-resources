@@ -4,7 +4,7 @@ title: 3d Printer Resources
 ---
 
 ## Calibration
-- All-in-one calibration: https://www.youtube.com/watch?v=rp3r921DBGI
+- All-in-one calibration: https://www.youtube.com/watch?v=rp3r921DBGI and https://teachingtechyt.github.io/calibration.html
 - Extruder Calibration: https://mattshub.com/blogs/blog/extruder-calibration
 - Luke Hatfield's guide: https://mk0helpcentertej4mtv.kinstacdn.com/wp-content/uploads/2021/01/Help-guide-Creality-and-others-5-22-21091.pdf
   - YouTube X Gantry rework: https://www.youtube.com/watch?v=4bFYH0X3qjk
@@ -14,6 +14,16 @@ title: 3d Printer Resources
   - https://www.amazon.com/gp/product/B07SY745CF/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
   - https://www.youtube.com/watch?v=Db1IFWTF270
   - https://www.youtube.com/watch?v=QnrH2Sk7y40
+  - Set E-Steps:
+  ```
+  Send: M92
+  Recv: echo: M92 X80.00 Y80.00 Z400.00 E140.11
+
+  M92 E140.11 ; set to new value
+  M500 ; save
+  ```
+    
+
 - Bed springs: https://www.amazon.com/gp/product/B07MTGXYLW/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
 
 ## Mesh Bed Leveling
