@@ -16,7 +16,7 @@ title: 3d Printer Resources
   - https://www.youtube.com/watch?v=QnrH2Sk7y40
   - Set X-Y-Z-E-Steps:
   ```
-  M92 X80.79 Y80.96 Z408.48 E140.11 ; set to new value
+  M92 X80.34 Y80.64 Z407.85 E140.11 ; set to new value
   M500 ; save
   ```
     
