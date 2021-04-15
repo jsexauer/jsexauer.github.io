@@ -3,6 +3,16 @@ layout: post
 title: 3d Printer Resources
 ---
 
+## Firmware upgrade
+https://github.com/Jyers/Marlin/wiki
+```
+M92 X80.34 Y80.64 Z407.85 E140.11 ; set X Y Z E steps
+M303 E0 S200 U1 ; PID tune for hot end
+M303 E-1 S60 U1 ; PID tune for bed
+M500 ; save
+```
+
+
 ## Calibration
 - All-in-one calibration: https://www.youtube.com/watch?v=rp3r921DBGI and https://teachingtechyt.github.io/calibration.html
 - Extruder Calibration: https://mattshub.com/blogs/blog/extruder-calibration
